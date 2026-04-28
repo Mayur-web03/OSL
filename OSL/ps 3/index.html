@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Student Profile Form</h2>
+    <form onsubmit="return validateForm()">
+
+        <label>Name:</label>
+        <input type="text" id="name" name="name">
+        <div class="error" id="nameError"></div>
+
+        <label>Email:</label>
+        <input type="text" id="email" name="email">
+        <div class="error" id="emailError"></div>
+
+        <label>Age:</label>
+        <input type="number" id="age" name="age">
+        <div class="error" id="ageError"></div>
+
+        <label>Roll Number:</label>
+        <input type="text" id="roll" name="roll" placeholder="ST123">
+        <div class="error" id="rollError"></div>
+
+        <label>Profile Photo:</label>
+        <input type="file" id="photo" name="photo">
+        <div class="error" id="photoError"></div>
+
+        <button type="submit" id="submitBtn">Submit</button>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
