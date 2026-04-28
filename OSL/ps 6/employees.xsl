@@ -7,6 +7,21 @@
 <html>
 <head>
     <title>Employee Salary</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            }
+        th,td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+                }
+
+                th {
+                    background-color: lightblue;
+                }
+            </style>
 </head>
 
 <body>
