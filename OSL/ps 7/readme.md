@@ -4,10 +4,13 @@ sudo unzip project.zip -d /opt/lampp/htdocs/
 If unzip is not installed:
 
 sudo apt install unzip
+
 🚀 2. Start XAMPP
 sudo /opt/lampp/lampp start
+
 🌐 3. Open Project in Browser
 http://localhost/project/
+
 🗄️ 4. Database Setup
 Open phpMyAdmin:
 http://localhost/phpmyadmin
